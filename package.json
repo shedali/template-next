@@ -5,7 +5,8 @@
     "dev": "next",
     "now-build": "next build&& next export&& npm run pdf out/index.html out/test.pdf",
     "start": "next start",
-    "pdf": "html-pdf"
+    "pdf": "html-pdf",
+    "render": "npm run pdf out/index.html out/test.pdf"
   },
   "dependencies": {
     "next": "latest",
