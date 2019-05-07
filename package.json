@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "now-build": "next build&& next export&& npm run pdf out/index.html out/test.pdf",
+    "now-build": "next build&& next export&& npm run pdf ./out/index.html ./out/test.pdf",
     "start": "next start",
     "pdf": "html-pdf",
     "render": "npm run pdf out/index.html out/test.pdf"
