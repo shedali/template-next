@@ -3,8 +3,7 @@ export default () => (
   <div>
       <h1>SHEDALI</h1>
 
-    <Link href='/about'>
-      <a>About</a>
-    </Link>
+
+  This is an attempt to create a pdf invoice ß
   </div>
 )
